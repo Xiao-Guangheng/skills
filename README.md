@@ -108,6 +108,16 @@ powershell -Command "& 'skills/<skill-name>/scripts/package_skill.ps1'"
 
 ---
 
+---
+
+## Learning More
+
+For a deeper dive into Agent Skills theory and design patterns, check out our companion guide:
+
+📖 **[Agent Skills 深度学习笔记](./LEARN_NOTES.md)** — A comprehensive study on Skill architecture (metadata → instruction → resource layering), nine real-world case studies across education, personal productivity, content creation, and government domains, plus a step-by-step creation SOP. If you want to understand *why* these skills are designed the way they are rather than just *how* to use them, start there.
+
+---
+
 ## Creating Your Own Skill
 
 Skills are simple to create — just a folder with a `SKILL.md` file containing YAML frontmatter and Markdown instructions:
@@ -143,6 +153,7 @@ description: "What this skill does — be pushy and explicit; when to use it —
 ```
 skills/
 ├── README.md                                          # This file
+├── LEARN_NOTES.md                                     # Deep-dive Agent Skills study guide
 ├── .gitignore                                         # Excludes ZIPs, Python cache, OS files
 │
 ├── skills/
